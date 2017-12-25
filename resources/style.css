@@ -1,0 +1,140 @@
+/******* Global Section *******/
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  color: #fff5ee;
+  background-color: #000;
+  text-align: center;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+/******* End Global Section *******/
+
+/******* Header Section *******/
+header {
+  align-items: center;
+  position: fixed;
+  z-index: 50;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid #fff5ee;
+  background-color: #000;
+}
+
+.logo img {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  height: 50px;
+}
+
+.menu {
+  float: right;
+  margin-left: auto;
+}
+
+nav a {
+  margin-right: 20px;
+  color: #fff5ee;
+  text-decoration: underline;
+}
+
+/******* End Header Section *******/
+
+/******* Homepage Section *******/
+.home-section {
+  padding-top: 69px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+}
+
+/* Home Top */
+.home-top {
+  height: 700px;
+  width: 1200px;
+  background-image: url(../resources/images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+}
+
+.hero-image {
+  padding-top: 300px;
+}
+
+.mission-section {
+  margin: auto;
+  background-color: #000;
+  width: 100%;
+}
+
+/* End Home Top */
+/* Home Middle */
+.home-middle {
+  padding: 60px 0 30px 0;
+  width: 1000px;
+}
+
+.tea-option img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+
+/* End Home Middle */
+/* Home Bottom */
+.home-bottom {
+  width: 1200px;
+  margin: 30px 0 30px 0;
+  height: 500px;
+  background-image: url(../resources/images/img-locations-background.jpg);
+  opacity: 0.9;
+  background-position: center;
+}
+
+.locations-title {
+  padding-top: 50px;
+}
+
+#locations .vcard {
+  display: block;
+  width: 300px;
+  height: 250px;
+  background-color: #000;
+  opacity: 1;
+  margin: 15px 20px;
+  padding: 20px 10px 0 10px;
+}
+
+.adr {
+  line-height: 60px;
+}
+
+/* End Home Bottom */
+/******* End Homepage Section *******/
+
+/******* Footer Section *******/
+#main-location {
+  height: 200px;
+}
+
+#main-location a {
+  color: #fff5ee;
+  text-decoration: none;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
+/******* End Footer Section *******/
